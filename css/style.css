@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
 body {
     background-color: lightgray;
 }
@@ -12,11 +20,34 @@ div {
 }
 
 .top-navigation > .content {
-    width: 970px;
-    height: 70px;
+    width: 60rem;
+    height: 4.375rem;
     margin: 0 auto;
 }
 
-.logo {
-    margin: 1em 0 0 1em;
+.content {
+    padding: 0px 15px;
 }
+
+.logo {
+    margin-top: 1em;
+}
+
+.links {
+    margin-top: -35px;
+}
+
+.links > li {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03em;
+    margin-left: 1em;
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
