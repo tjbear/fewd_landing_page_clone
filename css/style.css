@@ -1,35 +1,22 @@
-header {
-    height: 4.375rem;
-    width: 60rem;
+body {
+    background-color: lightgray;
+}
+
+div {
+    border: 1px solid Chocolate;
+}
+
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
+
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
 }
 
 .logo {
-    margin: -.8em 0 0 6em;
-    width: 2.9%;
-    height: auto;
-    float: left;
-}
-
-.top-nav {
-    padding: 0;
-    margin: 2em 4em 2em 2em;
-    text-align: right;
-}
-
-.top-nav > li {
-    list-style: none;
-    display: inline-block;
-    vertical-align: middle;
-    padding: 0 1em 0 1em;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.1em;
-}
-
-a {
-    color: #333;
-    text-decoration: none;
-}
-
-.active {
-    font-weight: 700;
+    margin: 1em 0 0 1em;
 }
