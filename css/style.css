@@ -1,9 +1,12 @@
-* {
+/*** Global ***/
+
+html {
+    /* Layout */
     box-sizing: border-box;
 }
 
-html {
-    -webkit-font-smoothing: antialiased;
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 body {
@@ -14,40 +17,51 @@ div {
     border: 1px solid Chocolate;
 }
 
-/* Navigation Section */
-.top-navigation {
-    background-color: #fff;
-}
-
-.top-navigation > .content {
-    width: 60rem;
+.content {
+    /* Layout */
+    width: 47.5rem;
     height: 4.375rem;
     margin: 0 auto;
-}
-
-.content {
     padding: 0px 15px;
 }
 
+/*** Navigation Section ***/
+
+.top-navigation {
+    /* Style */
+    background-color: #fff;
+}
+
 .logo {
-    margin-top: 1em;
+    /* Layout */
+    height: 4.375rem;
 }
 
 .links {
-    margin-top: -35px;
-}
-
-.links > li {
-    display: inline-block;
+    /* Layout */
+    float: right;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 1.06em;
     color: #838994;
-    letter-spacing: 0.03em;
-    margin-left: 1em;
+    margin-top: 1.7rem;
+    -webkit-font-smoothing: antialiased;
 }
 
-.top-navigation .links > .active {
+.links li {
+    /* Layout */
+    display: inline-block;
+    margin-left: 1em;
+    /* Style */
+    letter-spacing: 0.03em;
+}
+
+.links .active {
+    /* Style */
     color: #4c5058;
     font-weight: 500;
 }
 
+.links li:hover {
+    cursor: pointer;
+    color: #333;
+}
