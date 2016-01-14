@@ -23,11 +23,11 @@ body {
 /*** Navigation Section ***/
 
 .top-navigation {
-    /**** Come back and fix this
+    /********** THIS CODE BREAKS THE SITE
     position: fixed;
     width: 100%;
     z-index: 9999;
-    *****/
+    ***********/
     background-color: #fff;
     height: 4.375rem;
 }
