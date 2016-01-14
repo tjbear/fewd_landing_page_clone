@@ -23,6 +23,11 @@ body {
 /*** Navigation Section ***/
 
 .top-navigation {
+    /**** Come back and fix this
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    *****/
     background-color: #fff;
     height: 4.375rem;
 }
