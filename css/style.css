@@ -138,3 +138,14 @@ body {
     display: inline-block;
     text-align: center;
 }
+
+/*** Footer ***/
+
+.icons li {
+    display: inline-block;
+    border: 1px solid black;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    padding: .3em .2em .2em .5em;
+}
