@@ -141,11 +141,46 @@ body {
 
 /*** Footer ***/
 
+.social {
+    text-align: center;
+    padding-bottom: 9.375rem;
+}
+
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+
+.social h5 {
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0;
+}
+
+.icons {
+    padding: 0;
+    margin: 0;
+}
+
 .icons li {
     display: inline-block;
-    border: 1px solid black;
-    width: 2em;
-    height: 2em;
-    border-radius: 50%;
-    padding: .3em .2em .2em .5em;
+    border: 1px solid #eaebec;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 1.25rem;
+    padding: 0.625rem 0;
+    margin: 1.25rem 5px;
+    text-align: center;
+    cursor: pointer;
 }
+
+.copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
+.twitter { color: #55acee; }
+.facebook { color: #4c66a4; }
+.instagram { color: #3f729b; }
