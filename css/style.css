@@ -23,11 +23,9 @@ body {
 /*** Navigation Section ***/
 
 .top-navigation {
-    /********** THIS CODE BREAKS THE SITE
     position: fixed;
     width: 100%;
     z-index: 9999;
-    ***********/
     background-color: #fff;
     height: 4.375rem;
 }
@@ -70,6 +68,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
+    overflow: auto;
 }
 
 .introduction h1,
@@ -77,17 +76,16 @@ body {
     color: white;
     font-weight: 300;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .introduction h1 {
-    margin-top: 12.5rem;
-    margin-bottom: 0;
+    margin-top: 17.5rem;
     font-size: 3.125rem;
 }
 
 .introduction h3 {
     margin-top: 1rem;
-    margin-bottom: 0;
     font-size: 1.563rem;
 }
 
@@ -111,7 +109,7 @@ body {
     cursor: pointer;
 }
 
-/*** Three Icon Section ***/
+/*** Cases Section ***/
 
 .cases {
     background-color: white;
