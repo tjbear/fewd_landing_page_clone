@@ -1,15 +1,12 @@
 /*** Global ***/
 
-html {
-    box-sizing: border-box;
-}
+html { box-sizing: border-box; }
 
-*, *:before, *:after {
-    box-sizing: inherit;
-}
+*, *:before, *:after { box-sizing: inherit; }
 
 body {
     font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 /*** DRY Classes ***/
@@ -19,6 +16,9 @@ body {
     margin: 0 auto;
     padding: 0px 15px;
 }
+
+.center { margin: 0 auto; }
+.text-center { text-align: center; }
 
 /*** Navigation Section ***/
 
@@ -30,21 +30,16 @@ body {
     height: 4.375rem;
 }
 
-.logo {
-    height: 4.375rem;
-}
+.logo { height: 4.375rem; }
 
 .links {
     float: right;
-    font-family: 'Roboto', sans-serif;
     font-size: 1.06em;
     color: #838994;
     margin-top: 1.7rem;
-    -webkit-font-smoothing: antialiased;
 }
 
 .links li {
-    /* Layout */
     display: inline-block;
     margin-left: 1em;
     letter-spacing: 0.03em;
@@ -75,7 +70,6 @@ body {
 .introduction h3 {
     color: white;
     font-weight: 300;
-    text-align: center;
     margin-bottom: 0;
 }
 
@@ -96,7 +90,6 @@ body {
     border-radius: 4px;
     padding: 1rem 1.5rem;
     line-height: 1.33;
-    margin: 0 auto;
     color: white;
     background-color: #f15a29;
     font-size: 1.125rem;
@@ -116,14 +109,11 @@ body {
     padding-bottom: 5rem;
 }
 
-.cases .content {
-    margin-top: 7.875rem;
-}
+.cases .content { margin-top: 7.875rem; }
 
 .cases h2 {
     font-size: 2.75rem;
     font-weight: 300;
-    text-align: center;
     margin: 1.625rem 0 3.125rem;
 }
 
@@ -136,15 +126,11 @@ body {
 .cases .devices {
     width: 33.3333333%;
     display: inline-block;
-    text-align: center;
 }
 
 /*** Footer ***/
 
-.social {
-    text-align: center;
-    padding-bottom: 9.375rem;
-}
+.social { padding-bottom: 9.375rem; }
 
 .social hr {
     border: 0;
@@ -171,7 +157,6 @@ body {
     border-radius: 1.25rem;
     padding: 0.625rem 0;
     margin: 1.25rem 5px;
-    text-align: center;
     cursor: pointer;
 }
 
